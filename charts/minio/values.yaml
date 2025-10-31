@@ -117,6 +117,10 @@ service:
   consolePort: 9090
   ## @param service.annotations Service annotations
   annotations: {}
+  ## @param service.nodePorts Service node ports
+  nodePorts:
+    api: ""
+    console: ""
 
 ## @section Ingress configuration
 ingress:
